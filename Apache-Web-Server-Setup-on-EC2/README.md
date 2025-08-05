@@ -9,16 +9,27 @@ This Ansible project automates the provisioning and configuration of an Apache H
 ## 📁 Project Structure
 
 apache-ansible-project/
-├── inventories/  
-│ └── aws_ec2.yml # Inventory of EC2 instances  
+
+├── inventories/ 
+
+│ └── aws_ec2.yml # Inventory of EC2 instances
+
 ├── group_vars/  
+
 │ └── tag_Name_webserver.yml # Variables based on EC2 tag Name  
+
 ├── site.yml #  Main playbook entry point  
+
 ├── roles/ 
+
 │ └── apache/ 
+
 │ ├── tasks/ 
+
 │ │ └── main.yml # Apache installation tasks 
+
 │ └── templates/ 
+
 │ └── index.html.j2 # Template for default webpage 
 
 markdown
