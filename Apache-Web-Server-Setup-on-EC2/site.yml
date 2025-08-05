@@ -1,0 +1,7 @@
+---
+- name: "Apache web server setup on Ec2"
+  hosts: tag_Name__apache_SERVER
+  become: true
+
+  roles:
+    - apache
