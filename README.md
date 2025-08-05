@@ -1,6 +1,6 @@
 
 
-## ✅ `README.md` for the **parent folder** (`ansible-all-projects/`)
+## ✅ `README.md`
 
 ```md
 # Ansible All Projects Collection
