@@ -2,13 +2,13 @@
 
 ## ✅ `README.md`
 
-```md
+
 # Ansible All Projects Collection
 
 This repository is a collection of various Ansible automation projects. Each project is organized in its own folder and demonstrates infrastructure provisioning, configuration management, and application setup.
 
 ## 📁 Repository Structure
-
+```
 ansible-all-projects/
 ├── apache-ansible-project/ # Apache Web Server setup on AWS EC2
 
@@ -17,7 +17,7 @@ ansible-all-projects/
 ├── jboss-stanalone/ # JBoss standalone setup using Ansible
 
 └── README.md
-
+```
 markdown
 Copy
 Edit
@@ -49,8 +49,10 @@ To run a project:
 2. Review the inventory and variables
 3. Run the playbook using:
 
-```bash
-ansible-playbook -i inventories/your_inventory.yml site.yml
+bash
+```
+ansible-playbook -i inventories/your_inventory.yml site.yml\
+```
 🙏 Contributions
 Feel free to fork and contribute. All PRs are welcome!
 
